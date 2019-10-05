@@ -101,7 +101,7 @@ d3.csv("assets/data/data.csv").then(function(censusData) {
     // // Step 7: Create tooltip in the chart
     // // ==============================
     chartGroup.call(toolTip);
-    textGroup.call(toolTip)
+    textGroup.call(toolTip);
 
     // Step 8: Create event listeners to display and hide the tooltip
     // ==============================
